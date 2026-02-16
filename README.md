@@ -89,8 +89,8 @@ Ce projet a été réalisé avec l'aide de plusieurs outils d'intelligence artif
 
 ```bash
 # Cloner le projet
-git clone <url-du-repo>
-cd luxury-time-travel-landing-page
+git clone https://github.com/VictoriaYnov/Projet-Final-IA.git
+cd Projet-Final-IA
 
 # Installer les dépendances
 npm install --legacy-peer-deps
