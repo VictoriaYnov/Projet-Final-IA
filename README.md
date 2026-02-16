@@ -2,7 +2,7 @@
 
 Webapp moderne et interactive pour une agence fictive de voyage dans le temps proposant 3 destinations : **Paris 1889** (Exposition Universelle), le **Crétacé** (dinosaures, -65 millions d'années) et **Florence 1504** (Renaissance italienne).
 
-Projet réalisé dans le cadre du module IA — Ynov 2026.
+Projet réalisé dans le cadre du module IA — Ynov 2026 par Victoria Martini
 
 **URL de production :** [luxury-time-travel-landing-page.vercel.app](https://luxury-time-travel-landing-page.vercel.app)
 
@@ -26,6 +26,7 @@ Projet réalisé dans le cadre du module IA — Ynov 2026.
 ## Features implémentées
 
 ### Landing page
+
 - Hero section avec **vidéo en fond** (autoplay, loop, muted) et particules flottantes
 - **3 cards de destinations** avec images, badges de sécurité, notes, prix et highlights
 - Section statistiques (4.6 Mrd+ années accessibles, 12 400+ voyageurs, etc.)
@@ -34,6 +35,7 @@ Projet réalisé dans le cadre du module IA — Ynov 2026.
 - Navbar responsive avec glassmorphism au scroll et menu hamburger mobile
 
 ### Planificateur IA
+
 - Sélection parmi les **3 vraies destinations** (Paris 1889, Crétacé, Florence 1504)
 - Tags de centres d'intérêt (Art, Gastronomie, Architecture, Science, etc.)
 - Choix du nombre de voyageurs et de la durée
@@ -42,6 +44,7 @@ Projet réalisé dans le cadre du module IA — Ynov 2026.
 - Notes de personnalisation ajoutées selon les intérêts sélectionnés
 
 ### Chatbot (Chrono Concierge)
+
 - Widget flottant en bas à droite avec animation ping
 - **16 catégories de réponses** couvrant destinations, prix, sécurité, conseils, gastronomie, aventure, science, réservation, FAQ...
 - Système de **matching par mots-clés avec scoring** (la meilleure réponse est choisie)
@@ -51,6 +54,7 @@ Projet réalisé dans le cadre du module IA — Ynov 2026.
 - Ton professionnel, chaleureux et passionné d'histoire
 
 ### Animations & micro-interactions
+
 - **Scroll reveal** via IntersectionObserver (hook `useScrollReveal` réutilisable)
 - Animations staggerées (délai croissant entre les éléments)
 - Micro-interactions boutons : `active:scale-95`, effet glow radial au hover (`btn-glow`)
@@ -59,6 +63,7 @@ Projet réalisé dans le cadre du module IA — Ynov 2026.
 - Icônes qui grossissent/tournent au hover
 
 ### Optimisation
+
 - Lazy loading natif via `next/image`
 - Vidéo avec poster fallback
 - Build statique (SSG)
@@ -74,14 +79,15 @@ Ce projet a été réalisé avec l'aide de plusieurs outils d'intelligence artif
 |-------|-----------|
 | **v0.dev (Vercel)** | Génération initiale du squelette de la webapp (composants, layout, UI shadcn) |
 | **Claude Code (Anthropic)** | Développement, débogage, traduction FR, création du chatbot intelligent, planificateur IA, animations, déploiement |
-| **IA générative (vidéo)** | Création de la vidéo hero présentant les 3 destinations (dinosaures, Renaissance, Exposition Universelle) |
-| **IA générative (images)** | Génération des images hero des 3 destinations |
+| **Grok (vidéo)** | Création de la vidéo hero présentant les 3 destinations (dinosaures, Renaissance, Exposition Universelle) (Session 1) |
+| **Seelab** | Génération des images hero des 3 destinations (Session 1)  |
 
 ---
 
 ## Installation locale
 
 ### Prérequis
+
 - Node.js 18+
 - npm
 
